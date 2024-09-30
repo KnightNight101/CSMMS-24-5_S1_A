@@ -111,7 +111,7 @@ $`  A = \begin{bmatrix}
 2 & 1 \\
 0 & 3 \\
 1 & 2 \\
-\end{bmatrix} `%
+\end{bmatrix} `$
 
 $` AB = \begin{bmatrix}
 (2*2)+(1*0)+(3*1) & (2*1)+(1*3)+(3*2) \\
