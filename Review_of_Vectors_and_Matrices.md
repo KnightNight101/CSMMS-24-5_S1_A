@@ -80,9 +80,9 @@ $` A = \begin{bmatrix}
 Matrices that are filled with zeros
 
 $` A = \begin{bmatrix}
- 2 & 0 & 0 \\
- 0 & 2 & 0 \\
- 0 & 0 & 2 \\
+ 0 & 0 & 0 \\
+ 0 & 0 & 0 \\
+ 0 & 0 & 0 \\
 \end{bmatrix}
 `$
 
