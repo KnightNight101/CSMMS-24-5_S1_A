@@ -126,3 +126,27 @@ $` = \begin{bmatrix}
 ### Matrix Functions
 A matrix function maps a matrix to another matrix
 #### Power Function
+Possible only for square matrices
+$` A^{r} = A*A*A...A `$ (r times)
+
+#### Exponential Function
+Based on the Taylor Expansion (note to self, update with information about the taylor expansion and maclaurin series)
+
+$` exp(A) =\sum_{r=0}^{\infty }\frac{1}{r!}A^{r}=A^{0}+A+\frac{1}{2!}A^{2}+\frac{1}{3!}A^{3}+... `$
+
+Where $` A^{0} = I_{n} `$ by definition
+
+#### Transpose
+This essentially just "flips the matrix. The elements of the row become the elements of the column and vice-versa such that the $` (i,j)^{th} `$ element of $` A^{t} `$ is the $` (j,i)^{th} `$ element of A
+
+if A is size n*m then $` A^{t} `$ is size m*n
+
+Further notes are available in the [Matrix Reference Sheet]()
+
+#### Trace
+The trace of a ***Square**** Matrix A is the sum of it's diagonal elements. The Trace of the matrix is the same for the transpose of the same matrix.
+Further notes are available in the [Matrix Reference Sheet]()
+#### ***Determinant***
+A really important function.
+
+ 
