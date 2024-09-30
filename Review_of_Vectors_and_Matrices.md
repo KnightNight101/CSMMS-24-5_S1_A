@@ -102,3 +102,27 @@ In the above example, Matrix **R** is the result of multiplying every element of
 Matrix multiplication is distributive. For all rules, see [Matrix Reference Sheet]()
 
 ##### By Matrix
+Matrix multiplication is only possible under very specific circumstances. If Matries A (of order a,b) and B (of order x,y) are to be multiplied, b and x must be the same. The resulting matrix will be of size a,y.
+
+$`  A = \begin{bmatrix}
+ 2 & 1 & 3 \\
+ 1 & 4 & 1 \\
+\end{bmatrix}, B = \begin{bmatrix}
+2 & 1 \\
+0 & 3 \\
+1 & 2 \\
+\end{bmatrix} `%
+
+$` AB = \begin{bmatrix}
+(2*2)+(1*0)+(3*1) & (2*1)+(1*3)+(3*2) \\
+(1*2)+(4*0)+(1*1) & (1*1)+(4*3)+(1*2) \\
+\end{bmatrix} `$
+
+$` = \begin{bmatrix}
+7 & 11 \\
+3 & 15 \\
+\end{bmatrix} `$
+
+### Matrix Functions
+A matrix function maps a matrix to another matrix
+#### Power Function
