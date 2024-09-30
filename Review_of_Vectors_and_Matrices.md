@@ -15,6 +15,90 @@ $` A = \begin{bmatrix}
 \end{bmatrix}
 `$
 
-Where A is a matrix of n rows and m column with element a_{i,j} in the *ith* row and *jth* row
-A is a matrix to be of order (or dimension) n x m
+Where **A** is a matrix of n rows and m column with element $` a_{i,j} `$ in the *ith* row and *jth* row
+**A** is a matrix to be of order (or dimension) n x m
 Convention dictates that rows are listed first, then columns
+
+**A** is a square matrix if m=n. In a square matrix, the elements {$` a_{1,1} `$,$` a_{2,2} `$,...,$` a_{n,n} `$}
+
+The size of the dataset is really important. In most cases, this is a pretty good place to start when it comes to debugging. It should be noted that R will not throw up an error if incorrect Matrix sizes are used in, for example, elementary operations or Matrix multiplication. Further R related comments will go in a seperate document for the sake of clarity
+
+### Special Matrices
+Special Matricesa have a specific combination of zeros and "patterns". It is desirable to use computational techniques to convert the source data matrices into these special matrices as it makes it easier to work with and also reduces computational workload
+
+#### Diagonal Matrix
+Matrices that only have values in the diagonal
+
+$` A = \begin{bmatrix}
+ 2 & 0 & 0 \\
+ 0 & 3 & 0 \\
+ 0 & 0 & 4 \\
+\end{bmatrix}
+`$
+
+#### Upper Triangle Matrix
+Matrices that only have values in the Upper Diagonal
+
+$` A = \begin{bmatrix}
+ 1 & 3 & 2 \\
+ 0 & 3 & 4 \\
+ 0 & 0 & 4 \\
+\end{bmatrix}
+`$
+
+#### Lower Triangle Matrix
+Matrices that only have values in the Lower Diagonal
+
+$` A = \begin{bmatrix}
+ 2 & 0 & 0 \\
+ 3 & 1 & 0 \\
+ 4 & 6 & 0 \\
+\end{bmatrix}
+`$
+
+#### Scalar Matrix
+Matrices that only have values in the diagonal and the values are all the same
+
+$` A = \begin{bmatrix}
+ 2 & 0 & 0 \\
+ 0 & 2 & 0 \\
+ 0 & 0 & 2 \\
+\end{bmatrix}
+`$
+
+#### Identity Matrix
+Matrices that only have the value 1 in the diagonal
+
+$` A = \begin{bmatrix}
+ 1 & 0 & 0 \\
+ 0 & 1 & 0 \\
+ 0 & 0 & 1 \\
+\end{bmatrix}
+`$
+
+#### Zero Matrix
+Matrices that are filled with zeros
+
+$` A = \begin{bmatrix}
+ 2 & 0 & 0 \\
+ 0 & 2 & 0 \\
+ 0 & 0 & 2 \\
+\end{bmatrix}
+`$
+
+#### Equal Matrices
+If Matrices A and B are exactly identical, i.e have the number of rows and columns and also have identical values within the matrices
+
+### Elementary Operations
+
+#### Addition
+Matrix addiction (and subtraction) is only possible for matrices of the same (see definition of matrix)
+The resulting Matrix is also of the same order
+
+#### Multiplication
+##### By Scalar:
+**R** = *k*x**A**
+In the above example, Matrix **R** is the result of multiplying every element of Matrix **A** by scalar factor k.
+Matrix multiplication is distributive. For all rules, see [Matrix Reference Sheet]()
+
+##### By Matrix
