@@ -144,7 +144,7 @@ if A is size n*m then $` A^{t} `$ is size m*n
 Further notes are available in the [Matrix Reference Sheet]()
 
 #### Trace
-The trace of a ***Square**** Matrix A is the sum of it's diagonal elements. The Trace of the matrix is the same for the transpose of the same matrix.
+The trace of a ***Square*** Matrix A is the sum of it's diagonal elements. The Trace of the matrix is the same for the transpose of the same matrix.
 Further notes are available in the [Matrix Reference Sheet]()
 #### ***Determinant***
 A really important function.
