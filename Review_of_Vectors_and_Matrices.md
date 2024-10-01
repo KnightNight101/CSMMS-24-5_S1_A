@@ -147,6 +147,8 @@ Further notes are available in the [Matrix Reference Sheet]()
 The trace of a ***Square*** Matrix A is the sum of it's diagonal elements. The Trace of the matrix is the same for the transpose of the same matrix.
 Further notes are available in the [Matrix Reference Sheet]()
 #### ***Determinant***
-A really important function.
+A really important function. It is a scalar property of the matrix
+It is written as det(A) or %`\left|A \right|`$.
+
 
  
